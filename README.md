@@ -108,7 +108,7 @@ Manga {
 You can get a Manga object given the exact url from manganelo.com.
 
 ```js
-const Manga = require('manga-scraper').scraper
+const Manga = require('manganelo-scraper').scraper
 
 //Get Manga object given the complete url from manganelo
 Manga.getMangaDataFromURL('https://manganelo.com/manga/wo923110')
